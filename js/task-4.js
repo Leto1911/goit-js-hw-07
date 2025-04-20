@@ -9,8 +9,8 @@ registerForm.addEventListener('submit', event => {
     return;
   }
   const field = {
-    [registerForm.elements.email]: email,
-    [registerForm.elements.password]: password,
+    email: email,
+    password: password,
   };
   console.log(field);
 
